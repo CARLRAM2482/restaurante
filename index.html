@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Mi pagina web</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <!-- Contenido de la cabecera -->
+
+  <header>
+    <nav>
+      <img src="boton.png" id="boton">
+      <ul id="menu-secciones" class="inactivo">
+        <li><a href="#nosotros">NOSOTROS</a></li>
+        <li><a href="#menu">MENÚ</a></li>
+        <li><a href="#reserva">RESERVA</a></li>
+      </ul>
+    </nav>
+    <img src="Logo Restaurante.png" class="logo">
+  </header>
+
+  <!-- Contenido de la sección Nosotros -->
+
+  <main>
+    <div id="nosotros" class="seccion-nosotros">
+      <div id="foto-nosotros"></div>
+      <div id="contenido-nosotros">
+        <h2>Nosotros</h2>
+        <p>La copa azul surge de nuestra afición por los platos saludables. <br><br>
+          ​
+          Una combinación de Ingredientes de calidad y altos estándares es lo que nos diferencia de otros restaurantes
+          del área.<br><br>
+          ​
+          Nuestra meta es satisfacer a cada uno de nuestros clientes.
+        </p>
+      </div>
+    </div>
+
+    <!-- Contenido del menú -->
+
+    <div id="menu" class="seccion-platos">
+      <div class="menu-contenedor">
+        <div id="titular">
+          <h2>Menú</h2>
+        </div>
+        <div class="opciones-contenedor">
+          <a class="opciones" id="fuertes">Fuertes</a>
+          <a class="opciones" id="postres">Postres</a>
+          <a class="opciones" id="bebidas">Bebidas</a>
+        </div>
+      </div>
+
+      <!-- Sección donde se crearan los platos desde js -->
+
+
+
+
+    </div>
+
+    <!-- Contenido de la sección de reservas -->
+
+    <div class="reservas-contenedor reserva" id="reserva">
+      <h2>Reservas</h2>
+      <div class="contador">
+        <img src="restar.png" id="restar">
+        <p>Número de Personas</p>
+        <img src="sumar.png" id="sumar">
+        <p id="contador-numero">0</p>
+        <button id="reserva-b">Reserva tu lugar</button>
+      </div>
+    </div>
+
+    <!-- Logo final -->
+
+    <footer>
+      <img class="centrar-imagen" src="logo-positivo.png">
+    </footer>
+
+  </main>
+
+
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>
