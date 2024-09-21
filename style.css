@@ -1,0 +1,215 @@
+html, body {
+    height: 100%;
+    width: 1440px;
+    font-family: open -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0 auto;
+  }
+  
+  :root{
+    scroll-behavior: smooth;
+  }
+  
+  /* Cabecera */
+  
+  header{
+    background-image: url("/assets/fondo-header.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1440px;
+    height: 650px;
+    position: relative;
+  }
+  
+  #boton{
+    position: absolute;
+    cursor: pointer;
+    left: 33%;
+  }
+  
+  .activo{
+    display: flex;
+    height: 75px;
+    position: absolute;
+    width: auto;
+    background-color: #024059;
+    top: 0;
+    left: 40%;
+    margin: 0;
+    padding: 0;
+    border-radius: 0 0 12px 16px;
+  }
+  
+  header nav ul li{
+    list-style-type: none;
+    margin: 0 30px;
+    padding: 25px;
+    display: inline-block;
+  }
+  
+  header nav ul li a{
+    color: white;
+    text-decoration: none;
+  }
+  
+  .logo{
+    position: absolute;
+    width: 400px;
+    height: auto;
+    margin: 280px 36.1%;
+  }
+  
+  main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* SecciÃ³n Nosotros */
+  
+  .seccion-nosotros {
+    width: 1440px;
+    height: 400px;
+    display: flex;
+  }
+  
+  #foto-nosotros{
+    height: 400px;
+    width: 720px;
+    background-image: url(/assets/Nosotros.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+  }
+  
+  #contenido-nosotros {
+    height: 400px;
+    width: 680px;
+    float: right;
+  }
+  
+  #contenido-nosotros h2{
+    margin: 100px 0 0 100px;
+    font-size: 26px;
+  }
+  
+  #contenido-nosotros p{
+    width: 500px;
+    margin: 20px 80px 0 100px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+  }
+  
+  /* SecciÃ³n de platos */
+  
+  .seccion-platos{
+    width: 1360px;
+    height: 400px;
+    background-color:#024059;
+    margin: 0;
+    position: relative;
+    padding: 40px;
+  }
+  
+  .menu-contenedor{
+    height:40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 30px
+  }
+  
+  #titular h2{
+    margin: 0;
+    padding: 0;
+    font-size: 26px;
+    color: white;
+  }
+  
+  .opciones {
+    margin: 30px 60px 0 60px;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  
+  .opciones:hover{
+    text-decoration: underline;
+  }
+  
+  .contenedor-platos{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .foto-plato{
+    width: 300px;
+    height: 220px;
+    margin: 40px 20px 20px 10px;
+    border-radius:18px;
+  }
+  
+  .precio {
+    width: 300px;
+    height: 40px;
+    margin: 0 20px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  /*SecciÃ³n de contador*/
+  
+  .reservas-contenedor {
+    width: 1360px;
+    height: 180px;
+    background-color:#e6e6e6;
+    margin: 0;
+    padding: 40px;
+  }
+  
+  .reservas-contenedor h2{
+    text-align: center;
+    font-size: 26px;
+  }
+  
+  .contador{
+    width: 800px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px
+  }
+  
+  .contador img{
+    cursor: pointer;
+  }
+  
+  .contador p{
+    font-size: 18px;
+  }
+  
+  .contador button{
+    padding: 20px 40px;
+    font-size: 18px;
+    background-color: orange;
+    color: white;
+    border-radius: 18px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .contador button:hover{
+    padding: 20px 50px;
+  }
+  
+  .centrar-imagen{
+    margin: 30px;
+  }
+  
+  /* clase para desactivar contenido */
+  
+  
